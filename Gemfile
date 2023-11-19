@@ -9,7 +9,11 @@ gem 'bcrypt', '3.1.13'
 gem 'webpacker'
 gem 'webpack'
 gem 'psych'
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
+    # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
