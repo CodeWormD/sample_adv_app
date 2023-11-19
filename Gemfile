@@ -6,7 +6,9 @@ ruby "3.2.2"
 gem "rails", "~> 7.1.2"
 gem 'bootstrap-sass', '3.4.1'
 gem 'bcrypt', '3.1.13'
-
+gem 'webpacker'
+gem 'webpack'
+gem 'psych'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
