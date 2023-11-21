@@ -9,7 +9,8 @@ class UsersController < ApplicationController
 
   def show
     @user = User.find(params[:id])
-    @microposts = @user.microposts.paginate(page: params[:page])
+    @microposts = Micropost.includes(:user, :image_attachment).where(user: @user).paginate(page: params[:page])
+
   end
   def new
     @user = User.new
